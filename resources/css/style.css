@@ -13,13 +13,46 @@ header {
 nav span {
   display: inline-block;
   padding: 20px 10px;
-}
+  }
+  a {
+    color: black;
+  }
 .logo {
   display: flex;
   padding-left: 30px;
   align-items: center;
   flex-grow: 1;
 }
+.logo img {
+  margin-right: 10px;
+}
 .logo span {
   color: mediumaquamarine;
+}
+.container {
+  display: flex;
+}
+.column.large {
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+
+}
+.first.story span {
+  border: 1px solid black;
+}
+.first.story p {
+  border: 1px solid black;
+}
+.second.story {
+  border: 1px solid black;
+}
+.earth-image span {
+  border: 1px solid black;
+}
+.third.story {
+  border: 1px solid black;
+}
+.camera-image span {
+  border: 1px solid black;
 }
