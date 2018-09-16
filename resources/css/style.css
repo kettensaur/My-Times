@@ -1,3 +1,8 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
 
 }
@@ -46,13 +51,26 @@ nav span {
 }
 .second.story {
   border: 1px solid black;
-}
+  display: block;
+  }
 .earth-image span {
   border: 1px solid black;
+  display: block;
 }
 .third.story {
   border: 1px solid black;
+  display: block;
 }
 .camera-image span {
+  border: 1px solid black;
+  display: block;
+}
+.column.medium {
+  border: 2px solid black;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+.cat-story span {
   border: 1px solid black;
 }
