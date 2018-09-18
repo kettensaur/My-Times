@@ -64,17 +64,22 @@ nav span {
   .second.story h2 {
     margin-bottom: 15px;
   }
+
 .earth-image span {
   border: 1px solid black;
   display: block;
 }
+
 .third.story {
   display: block;
   margin-bottom: 15px;
   }
+
 .third.story h2 {
-  margin: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
+
 .camera-image span {
   border: 1px solid black;
   display: block;
@@ -82,11 +87,37 @@ nav span {
 
 .column.medium {
   border: 2px solid black;
-  display: flex;
   width: 300px;
-  flex-direction: column;
-  align-content: space-between;
-}
-.cat-story span {
+
+  }
+
+  .stories h2 {
+    margin-top: 15px;
+  }
+
+  .stories p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+.cats span {
   border: 1px solid black;
+  display: block;
+}
+
+.cats p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.column.small {
+  border: 1px solid black;
+  width: 240px;
+
+}
+
+.bites {
+  border: 1px solid black;
+}
+.bites h2 {
+  margin-top: 15
 }
