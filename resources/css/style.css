@@ -36,40 +36,56 @@ nav span {
 }
 .container {
   display: flex;
+  border: 1px solid black;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
 }
 .column.large {
-  display: flex;
   width: 630px;
-  flex-direction: column;
+  }
 
-}
 .first.story span {
   border: 1px solid black;
+  display: block;
 }
 .first.story p {
-  border: 1px solid black;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .second.story {
   border: 1px solid black;
   display: block;
+  margin-bottom: 15px;
+  }
+
+  .second.story h2 {
+    margin-bottom: 15px;
   }
 .earth-image span {
   border: 1px solid black;
   display: block;
 }
 .third.story {
-  border: 1px solid black;
   display: block;
+  margin-bottom: 15px;
+  }
+.third.story h2 {
+  margin: 15px;
 }
 .camera-image span {
   border: 1px solid black;
   display: block;
 }
+
 .column.medium {
   border: 2px solid black;
   display: flex;
   width: 300px;
   flex-direction: column;
+  align-content: space-between;
 }
 .cat-story span {
   border: 1px solid black;
