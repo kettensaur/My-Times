@@ -21,7 +21,7 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
   }
-  a {
+a {
     color: black;
   }
 .logo {
@@ -39,12 +39,15 @@ nav span {
 .container {
   display: flex;
   border: 1px solid black;
+  width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+}
 }
 .column {
   display: flex;
   flex-direction: column;
-  margin-right: 30px;
-}
+  }
 .column.large {
   width: 630px;
   }
@@ -60,43 +63,46 @@ nav span {
   color: white;
 }
 .first.story p {
-  margin-top: 15px;
-  margin-bottom: 15px;
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .second.story {
   border: 1px solid black;
   display: block;
-  margin-bottom: 15px;
-
+  margin-bottom: 20px;
   }
 
   .second.story h2 {
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
-.earth-image span {
-  border: 1px solid black;
-  display: block;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-  height: 300px;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
+  .earth-image {
+      background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .earth-image span {
+      font-family: Georgia;
+      font-weight: bold;
+      font-size: 30px;
+      color: white;
+  }
 
 .third.story {
   display: block;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
     }
 
 .third.story h2 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
+  }
 
 .camera-image span {
   border: 1px solid black;
@@ -116,13 +122,13 @@ nav span {
   }
 
   .stories h2 {
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .stories p {
-    margin-top: 15px;
-    margin-bottom: 15px;
-
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 .cats span {
   border: 1px solid black;
@@ -136,9 +142,9 @@ nav span {
 }
 
 .cats p {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
 
 .column.small {
   border: 1px solid black;
@@ -147,9 +153,9 @@ nav span {
 
 .bites {
   border: 1px solid black;
-  
+  margin-bottom: 20px;
 }
 .bites h2 {
-  margin-top: 15;
-  margin-bottom: 15px;
-}
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
